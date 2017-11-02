@@ -33,8 +33,6 @@ CREATE TABLE IF NOT EXISTS `melis_cms_prospects` (
   `pros_email` VARCHAR(150) NULL,
   `pros_telephone` VARCHAR(20) NULL,
   `pros_message` TEXT NULL,
-  `pros_company` VARCHAR(45) NULL,
-  `pros_country` VARCHAR(45) NULL,
   `pros_contact_date` TIMESTAMP NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`pros_id`),
   INDEX `fk_theme_id_idx` (`pros_theme` ASC))
